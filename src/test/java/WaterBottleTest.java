@@ -38,7 +38,12 @@ public void before() {
 
 @Test
     public void bottleEmpty(){
-    assertEquals(0, waterBottle.bottleEmpty());
+    assertEquals(0, waterBottle.bottleEmpty(0));
+}
+
+@Test
+    public void refillBottle(){
+    assertEquals(100, waterBottle.refillBottle(100));
 }
 
 

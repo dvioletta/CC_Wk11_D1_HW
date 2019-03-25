@@ -22,8 +22,12 @@ public class WaterBottle {
         return this.volume;
     }
 
-    public int bottleEmpty(){
-        return this.volume =0;
+    public int bottleEmpty(int empty){
+        return this.volume = empty;
+    }
+
+    public int refillBottle(int refill){
+        return this.volume = refill;
     }
 
 }
